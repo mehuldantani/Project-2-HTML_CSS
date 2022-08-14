@@ -1,3 +1,8 @@
+
+:root{
+  --primary: hsla(226, 19%, 23%,0.8);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +10,64 @@
   font-family: "Red Rose", cursive;
 }
 
-/* ------------------------------ */
-/* ---------- NAVBAR ------------ */
-/* ------------------------------ */
+body{
+  background: linear-gradient(135deg, var(--primary),var(--primary)),
+         url(./assets/back.png) no-repeat center center / cover;
+}
 
-/* ------------------------------ */
-/* ---------- HERO ------------ */
-/* ------------------------------ */
+.navbar{
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  background-color: transparent;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffc233;
+  list-style: none;
+}
+
+.button-small{
+  width: 125px;
+  height: 45px;
+  background-color: #ff505f;
+  border-color: #ff505f;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.hero-heading{
+  text-align: center;
+  color: #ffc233;
+  font-size: 120px;
+  width: 1200px;
+  margin: 150px;
+  margin-top: 75px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  line-height: 115px;
+}
+
+.button-large{
+  position: relative;
+  top: -110px;
+  width: 250px;
+  height: 70px;
+  background-color: #ff505f;
+  color: #ffffff;
+  font-weight: 700;
+  border-color: #ff505f;
+  border-radius: 0px;
+  margin-left: 650px;
+  font-size: 22px;
+}
+
+img[alt~="bottom-logo"] {
+  position: relative;
+  top: -140px;
+  margin-left: 1300px;
+}
