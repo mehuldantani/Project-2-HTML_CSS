@@ -1,8 +1,4 @@
 
-:root{
-  --primary: hsla(226, 19%, 23%,0.8);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +7,7 @@
 }
 
 body{
-  background: linear-gradient(135deg, var(--primary),var(--primary)),
+  background: linear-gradient(135deg, rgba(64, 78, 155, 0.52), rgba(53, 20, 81, 0.73)),
          url(./assets/back.png) no-repeat center center / cover;
 }
 
